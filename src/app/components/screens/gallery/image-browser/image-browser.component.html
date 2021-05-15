@@ -1,0 +1,5 @@
+<div #browserElement class="image-browser-main">
+  <div class="image-browser-container">
+    <app-image-thumbnail *ngFor="let image of images" [style.width.px]="thumbnailWidth" [style.height.px]="thumbnailHeight"></app-image-thumbnail>
+  </div>
+</div>

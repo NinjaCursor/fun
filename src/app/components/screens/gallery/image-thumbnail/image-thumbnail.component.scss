@@ -1,0 +1,21 @@
+$imageWidth: 120px;
+$imageHeight: 100px;
+
+@mixin definedDimensions {
+    width: $imageWidth;
+    height: $imageHeight;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+:host {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
